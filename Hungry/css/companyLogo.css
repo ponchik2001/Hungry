@@ -1,0 +1,37 @@
+.companyLogo {
+    margin-top: 63px;
+}
+.companyLogo .container {
+}
+.companyLogo p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.4632px;
+    line-height: 26px;
+    color: #03101A;
+}
+.companyLogo .companyLogo-item-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.companyLogo .companyLogo-item {
+}
+.companyLogo img {
+}
+
+@media (max-width: 831px){
+    .companyLogo .companyLogo-item-container{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .companyLogo{
+        margin-top: 15px;
+    }
+    .companyLogo .companyLogo-item {
+        margin-top: 15px;
+    }
+}

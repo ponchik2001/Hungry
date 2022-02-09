@@ -1,0 +1,89 @@
+.heroarea {
+    padding-top: 45px;
+    padding-bottom: 5px;
+    background: #1F98F0;
+
+}
+
+.heroarea .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroarea .heroarea-txtPart {}
+
+.heroarea h2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 130%;
+    /* or 66px */
+
+
+    /* WHITE */
+
+    color: #FFFFFF;
+}
+
+.heroarea p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+
+    /* WHITE */
+
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.heroarea .heroarea-btn_container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.heroarea .gDownloadBtn {}
+
+.heroarea .gDownloadBtn img {}
+
+.heroarea .appDownloadBtn {}
+
+.heroarea .appDownloadBtn img {}
+
+.heroarea .heroarea-imagPart {}
+
+
+
+.heroarea .heroarea-imagPart img {}
+
+
+@media (max-width:1100px) {
+    .heroarea .heroarea-imagPart img {
+        display: none;
+    }
+
+    .heroarea .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .heroarea .heroarea-btn_container {
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .heroarea p {
+        margin-top: 10px;
+    }
+    .heroarea{
+        padding-top:5px;
+    }
+}
