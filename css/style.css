@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(header.css);
+@import url(heroarea.css);
+@import url(companyLogo.css);
+@import url(mainFeatures.css);
+
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+}
+
+.sectionTitle {
+    /* Subtitle/Base */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    /* identical to box height */
+
+
+    /* PRIMARY BLACK */
+
+    color: #03101A;
+
+}
